@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Lexend:wght@100..900&display=swap');
+
+@font-face {
+  font-family: 'Silka';
+  src: url(/assets/font/silka-font-demo/Silka-Regular-&-Italic/Silka_Regular\ &_Italic_Webfont);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  background: white;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text {
+  font-family: 'Lexend';
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-decoration: none;
+  color: #2C2F32;
+}
+
+.pb-36 {
+  padding-bottom: 36px;
+}
+
+.pt-48 {
+  padding-top: 48px;
+}
+
+.gap-12 {
+  gap: 12px;
+}
+
+.btn {
+  font-family: 'Figtree';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #8D8D8D !important;
+  Padding: 2px, 12px, 2px, 12px !important;
+  border-radius: 32px !important;
+  background-color: #F1F1F1 !important;
+  transition: .4s;
+}
+
+.btn:hover {
+  color: black !important;
+}
+
+.btn3 {
+  font-family: Lexend;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: white;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: #222861;
+  border-radius: 24px;
+  border: 0;
+  width: 100%;
+  transition: .4s;
+  border: 2px solid transparent;
+
+}
+
+.btn3:hover {
+  color: #222861;
+  background: white;
+  border: 2px solid #222861;
+
+}
+
+.third-heading {
+  font-family: Lexend;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #2C2F32;
+  text-wrap: nowrap;
+
+}
+
+.third-para {
+  font-family: Lexend;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #2C2F32;
+
+}
+
+.box1 {
+  border: 1px solid #E5E5E5;
+  border-radius: 16px;
+  padding-bottom: 16px;
+  overflow: hidden;
+  transition: .4s;
+}
+
+.box1:hover {
+  box-shadow: 5px 5px 5px #F1F1F1;
+}
+
+@media (max-width:768px) {
+  .third-heading {
+    font-size: 35px;
+  }
+
+  .third-para {
+    font-size: 12px;
+  }
+}
+
+@media (max-width:576px) {
+  .third-heading {
+    font-size: 25px;
+  }
+
+  .btn3 {
+    font-size: 12px;
+  }
+}
